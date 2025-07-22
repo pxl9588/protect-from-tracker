@@ -1,11 +1,11 @@
-package com.example;
+package com.protect_from_tracker;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
-public interface ExampleConfig extends Config
+@ConfigGroup("protect-from-tracker")
+public interface ProtectFromTrackerConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
